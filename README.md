@@ -1,8 +1,8 @@
-# ReactNative Git@OSC
+# ReactNative Git App
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-An App of Git@OSC by React-Native (Thanks for [xiekw2010](https://github.com/xiekw2010/react-native-gitfeed))
+An App of Git by React-Native (Thanks for [xiekw2010](https://github.com/xiekw2010/react-native-gitfeed))
 
 <img src="./screen/project.jpg" alt="..." height="350" width="200">
 <img src="./screen/personal.jpg" alt="..." height="350" width="200">
@@ -43,7 +43,7 @@ open the project in ios dir `cd ios`
 1. edit xcode project `OSCGit`'s scheme to `release` mode
 
 
-2. bundle the JS resources, in project root dir (如果第一次运行没生存index.ios.jsbundle,再运行一次)
+2. bundle the JS resources, in project root dir (if the index.ios.jsbundle is not generated, run again)
 
   ```sh
  react-native bundle --entry-file index.ios.js --bundle-output ./ios/bundle/index.ios.jsbundle --platform ios --assets-dest ./ios/bundle --dev false --sourcemap-output ./ios/bundle/source.map --verbose
@@ -57,7 +57,7 @@ Edit xcode project `OSCGit` edit scheme to `debug` mode
 Xcode run!
 
 ## Android
-    - 还未测试.(下一步准备让android也运行起来,然后再总结.)
+    - hasn't been tested yet. (// TODO: plan to make it run on Android and summarize)
 
 ## code-push hot reloader (optional)
 ### Installation
