@@ -12,9 +12,9 @@ An App of Git@OSC by React-Native (Thanks for [xiekw2010](https://github.com/xie
 **[More screenshots](./screen)**
 ## Getting Started
 
-### Requirements **[More details](http://rplees.com/2016/01/14/react-native%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/)**
+## An App of Git@OSC by React-native
 
-## An App of Git@OSC by React-native Android Features
+### Features
 
 1. Recommend/Trending/Recent Update Project view.
 2. Discover project view.
